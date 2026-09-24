@@ -1,4 +1,5 @@
-// Write your code here
+// Declare the products array with the four string values
+const products = ["laptop", "phone", "headphones", "monitor"];
 
 
 
