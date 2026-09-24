@@ -55,4 +55,3 @@ By the end of this lab, you should be able to:
 
 5. **Remove a Product**
    - Write a function called `removeLastProduct` to remove the last product from the array.
-
