@@ -1,6 +1,26 @@
-// Declare the products array with the four string values
-const products = ["laptop", "phone", "headphones", "monitor"];
+// Declare the products array
+let products =["laptop", "phones", "headphones", "monitor"];
 
+// 1. Logs the first product to the console
+function logFirstProduct() {
+  console.log(products[0]);
+  
+}
+
+// 2. Updates the product name at the given index
+function updateProductName(index, newName) {
+  products[index] = newName;
+}
+
+// 3. Removes the last product from the array
+function removeLastProduct() {
+  products.pop();
+}
+
+// 4. Adds a new product to the end of the array
+function addProduct(newProduct) {
+  products.push(newProduct);
+}
 
 
 // Export the necessary parts for testing
